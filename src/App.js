@@ -1,25 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Row, Col, Container, Button, Form, InputGroup } from "react-bootstrap";
 
-function App() {
+class Counter extends React.Component {
+  render() {
+    return (
+      <>
+        <Form.Control aria-label="First name" type="number" className="text-center" value={0} />
+      </>
+    )
+  }
+}
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <>
+//         <Container>
+//           <Row>
+//             <Col></Col>
+//             <Col md={6} className="mt-5">
+//               <InputGroup className="mt-5">
+//                 <Button className="btn-danger" onClick={() => kurang()}>- Kurang</Button>
+//                 <Button onClick={() => tambah()}>+ Tambah</Button>
+//               </InputGroup>
+//             </Col>
+//             <Col></Col>
+//           </Row>
+//         </Container>
+//       </>
+//     )
+//   }
+// }
+
+
+
+const App = () => {
+  const kurang = () => {
+    return alert('Angka di kurang');
+  }
+
+  const tambah = () => {
+    return alert('Angka di tambah');
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Container>
+        <Row>
+          <Col></Col>
+          <Col md={6} className="mt-5">
+            <InputGroup className="mt-5">
+              <Button className="btn-danger" onClick={() => kurang()}>- Kurang</Button>
+              <Form.Control aria-label="First name" type="number" className="text-center" value={0} />
+              <Button onClick={() => tambah()}>+ Tambah</Button>
+            </InputGroup>
+          </Col>
+          <Col></Col>
+        </Row>
+      </Container>
+    </>
+  )
 }
 
 export default App;

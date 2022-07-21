@@ -1,13 +1,12 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import DataList from './components/DataList';
-import GetApi from './components/GetApi';
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<DataList />} />
-        <Route path='/' element={<GetApi />} />
+        <Route path='home' element={<Home />} />
       </Routes>
     </BrowserRouter>
   )

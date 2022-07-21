@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* CSS for Header nav */
+header {
+    background-image: url(../img/MaskGroup.png);
+    background-size: cover;
+    padding: 63px 150px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav h1 {
+    color: white;
+    font-size: 29px;
+}
+
+header nav .btn {
+    height: 45px;
+}
+
+header nav .btn button {
+    height: 100%;
+    padding: 0 30px;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+
+header nav .btn button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+header nav .btn button .a-login {
+    color: white;
+}
+
+header nav .btn button .a-sign {
+    color: #6379F4;
+}
+
+header nav .btn button.b-login {
+    background-color: #6379F4;
+    border: 1px solid white;
+}
+
+header nav .btn button.b-sign {
+    background-color: white;
+    border: 1px solid #6379f4;
+}
+
+/* CSS for Header Main */
+header main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header main div div.aside {
+    margin-top: 140px;
+}
+
+header main div div.aside h1 {
+    font-size: 60px;
+    color: white;
+}
+
+header main div div.aside p {
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+header main div div.aside button {
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #6379f4;
+    padding: 15px 0;
+    border-radius: 12px;
+}
+
+header main div div.aside button a {
+    text-decoration: none;
+    margin: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6379F4;
+}
+
+section img {
+    width: 100%;
+}
+
+
+/* MAIN */
+main.about {
+    background-color: #E5E5E5;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+main.about div.h1 {
+    text-align: center;
+}
+
+main.about div.h1 h1 {
+    font-size: 60px;
+}
+
+main.about div.h1 h1 span {
+    color: #6379F4;
+}
+
+main.about div.p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main.about div.p p {
+    font-size: 18px;
+}
+
+main.about div.row-card {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+main.about div.row-card div.card div.img {
+    display: flex;
+    justify-content: center;
+}
+
+main.about div.row-card div.card div.img .i {
+    color: #6379F4;
+    margin: 18px;
+    background-color: rgba(98, 86, 225, 0.1);
+    padding: 18px;
+    border-radius: 50%;
+}
+
+main.about div.row-card div.card {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 75px;
+    box-shadow: 0px 4px 250px rgba(172, 172, 172, 0.15);
+    border-radius: 25px;
+}
+
+main.about div.row-card div.card div.img {
+    margin-top: 40px;
+}
+
+main.about div.row-card div.card p.support {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3D42;
+}
+
+main.about div.row-card div.card p.contact {
+    margin-top: 35px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #3A3D42;
+}
+
+/* ARTICLE */
+article {
+    background-color: rgba(71, 58, 209, 0.06);
+}
+
+article div.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+article div.row div.col-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+article div.row div.col-2 div h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 174px;
+    margin-left: 50px;
+}
+
+article div.row div.col-2 div h1 span {
+    color: #6379F4;
+}
+
+article div.row div.col-2 .ul-features {
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 250px;
+}
+
+article div.row div.col-2 .ul-features .li-features {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+article div.row div.col-2 .ul-features .li-features p {
+    margin-bottom: 20px;
+}
+
+article div.row div.col-2 .ul-features .title {
+    font-weight: 700;
+    color: #3A3D42;
+}
+
+article div.row div.col-2 .ul-features .title span {
+    color: #6379F4;
+}
+
+
+
+
+/* SUMMARY */
+summary {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 120px;
+}
+
+summary div h1 {
+    font-size: 60px;
+}
+
+summary div h1 span {
+    color: #6379F4;
+}
+
+summary div p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+summary div.people {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+}
+
+summary div.people div.figure {
+    margin-top: 60px;
+    box-shadow: 0px 5px 70px rgba(197, 197, 197, 0.15);
+    border-radius: 30px;
+    background-color: white;
+    padding: 60px 60px;
+}
+
+summary div.people div h1 {
+    margin-top: 30px;
+    font-size: 26px;
+    color: #373C46;
+    margin-bottom: 9px;
+}
+
+summary div.people div.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+summary div.people div.arrow .ar {
+    background-color: white;
+    padding: 18px;
+    box-shadow: 0px 5px 70px rgba(149, 148, 148, 0.15);
+    border-radius: 20px;
+}
+
+summary div.people div span {
+    color: #56585B;
+    font-size: 20px;
+}
+
+summary div.people div p {
+    margin-top: 45px;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #6379F4;
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-bottom: 78px;
+}
+
+footer div span.footer {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 150px;
+}
+
+footer div p {
+    color: white;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+footer div hr {
+    color: white;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+footer div span {
+    color: white;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+footer div.contact {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.numb {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-image: url(../img/MaskGroup.png);
+        background-size: cover;
+        padding: 63px 30px 20px;
+    }
+
+    header nav {
+        display: inline;
+    }
+
+    header nav .btn button {
+        margin-left: 0;
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    header main {
+        display: inline;
+    }
+
+    header main div.wallpaper {
+        margin-left: 40px;
+        display: none;
+    }
+
+    section img {
+        display: none;
+    }
+
+    main.about div.row-card {
+        margin-top: 70px;
+        display: inline;
+        text-align: center;
+    }
+
+    article div.row {
+        display: inline;
+    }
+
+    article div.row div.col-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    article div.row div.col-2 div h1 {
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 174px;
+        margin-left: 40px;
+    }
+
+    article div.row div.col-2 .ul-features {
+        padding-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    summary div.people div.arrow .ar {
+        display: none;
+    }
+
+    summary div.people div.figure {
+        margin-top: 60px;
+        box-shadow: 0px 5px 70px rgba(197, 197, 197, 0.15);
+        border-radius: 30px;
+        background-color: white;
+        width: 70%;
+    }
+
+    article div.row div.col-2 {
+        padding-bottom: 30px;
+    }
+
+    footer div.contact {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    footer div.numb {
+        display: inline-block;
+    }
+
+}

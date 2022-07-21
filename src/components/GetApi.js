@@ -16,8 +16,8 @@ const GetApi = () => {
 
     return (
         <div className='container mt-5'>
-            {characters.map((character, i) => (
-                <div className='row'>
+            <div className='row d-flex'>
+                {characters.map((character, i) => (
                     <div className="col p-2">
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
@@ -26,8 +26,8 @@ const GetApi = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     )
 }
